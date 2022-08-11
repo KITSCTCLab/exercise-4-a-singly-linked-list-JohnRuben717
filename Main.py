@@ -78,7 +78,7 @@ class Solution:
             sum_list.insert_at_end(digit)
         return sum_list
 
-    def get_num(self, l: Optioal[LinkedList]) -> int:
+    def get_num(self, l: Optional[LinkedList]) -> int:
         """
         :param l: LinkedList with non-negative integers
         :return: returns digits of the list as a single integer
@@ -105,7 +105,7 @@ for data in data_for_first_list:
     first_list.insert_at_end(data)
 # Read data for second list
 data_for_second_list = list(map(int, input().strip().split(" ")))
-# Add data at the end of second_list
+# Add data ta the end of second_list
 for data in data_for_second_list:
     second_list.insert_at_end(data)
 # Create an instance for Solution
